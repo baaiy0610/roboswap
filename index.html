@@ -342,7 +342,26 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Recent advancements in generative models have
+revolutionized video synthesis and editing. However, the scarcity
+of diverse, high-quality datasets continues to hinder videoconditioned robotic learning, limiting cross-platform generalization. In this work, we address the challenge of swapping a
+robotic arm in one video with another— a key step for crossembodiment learning. Unlike previous methods that depend on
+paired video demonstrations in the same environmental settings,
+our proposed framework, RoboSwap, operates on unpaired
+data from diverse environments, alleviating the data collection
+needs. RoboSwap introduces a novel video editing pipeline
+integrating both GANs and diffusion models, combining their
+isolated advantages. Specifically, we segment robotic arms from
+their backgrounds and train an unpaired GAN model to
+translate one robotic arm to another. The translated arm is
+blended with the original video background and refined with
+a diffusion model to enhance coherence, motion realism and
+object interaction. The GAN and diffusion stages are trained
+independently. Our experiments demonstrate that RoboSwap
+outperforms state-of-the-art video and image editing models
+on three benchmarks in terms of both structural coherence
+and motion consistency, thereby offering a robust solution for
+generating reliable, cross-embodiment data in robotic learning.
           </p>
         </div>
       </div>
